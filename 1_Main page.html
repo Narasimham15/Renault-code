@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RENAULT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(248, 248, 65);
+        }
+
+        nav {
+            background-color: rgb(248, 248, 65)w;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            padding: 10px;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            margin-left: auto;
+        }
+
+        li {
+            margin: 0 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        a:hover {
+            color: black;
+        }
+
+        .Search {
+            display: flex;
+            align-items: center;
+        }
+
+        .Search input {
+            padding: 5px;
+            width: 120px;
+
+            margin-right: 5px;
+        }
+
+        .Search button {
+            padding: 5px 10px;
+        }
+
+        .product {
+            text-align: center;
+            margin: 20px;
+        }
+
+        img {
+            width: 500px;
+            height: auto;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            padding: 10px 20px;
+            border-radius: 50px;
+            border: none;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: grey;
+        }
+
+        .registration-form {
+            max-width: 400px;
+            margin: 40px auto;
+
+            padding: 45px;
+            background: white;
+
+            border-radius: 10px;
+            box-shadow: 0 2px 10px black
+        }
+
+        .registration-form h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .registration-form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .registration-form button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .registration-form button:hover {
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">RENAULT</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+        <div class="Search">
+            <input type="text" placeholder="Search">
+            <button type="button">Search</button>
+        </div>
+    </nav>
+
+    <div class="product">
+        <h1>KWID</h1>
+        <img src="https://mda.spinny.com/sp-file-system/public/2024-10-04/7ecee97d27024a32ab330251abf2daf7/file.JPG?q=85&w=350"
+            alt="KWID Image" />
+        <h2>Price: 4.69 lakhs</h2>
+        <p>Range starts at ₹ 4.69 lakhs* | AMT range starts at ₹ 5.44 lakhs*</p>
+        <a href="./1.Kwid. Spec.html"><button type="button">Specifications</button></a>
+        <a href="./2.Form.html"><button type="button">Book Now</button></a>
+    </div>
+
+    <div class="product">
+        <h1>TRIBER</h1>
+        <img src="https://mda.spinny.com/sp-file-system/public/2024-10-15/3862a6bfc08c4a00b46a1a9a12f31e32/file.JPG?q=85&w=350"
+            alt="TRIBER Image" />
+        <h2>Price: 5.99 lakhs</h2>
+        <p>Range starts at ₹ 5.99 lakhs* | AMT range starts at ₹ 8.12 lakhs*</p>
+        <button type="button">Specifications</button>
+        <button type="button">Book Now</button>
+    </div>
+
+    <div class="product">
+        <h1>KIGER</h1>
+        <img src="https://mda.spinny.com/sp-file-system/public/2024-07-27/592b5d1d75364e3f974e9899dd5ff198/file.JPG?q=85&w=350"
+            alt="KIGER" />
+        <h2>Price: 5.99 lakhs</h2>
+        <p>Range starts at ₹ 5.99 lakh* | AMT range starts at ₹ 7.09 lakh* | turbo range starts at ₹ 9.29 lakh*</p>
+        <button type="button">Specifications</button>
+        <button type="button">Book Now</button>
+    </div>
+
+    <div class="product">
+        <h1>DUSTER</h1>
+        <img src="https://mda.spinny.com/sp-file-system/public/2024-08-30/98815e9e968b433f8d1dcbf718fdab57/file.JPG?q=85&w=350"
+            alt="DUSTER Image" />
+        <h2>Price: 5.99 lakhs</h2>
+        <p>Range starts at ₹ 5.99 lakh* | AMT range starts at ₹ 7.09 lakh* | turbo range starts at ₹ 9.29 lakh*</p>
+        <button type="button">Specifications</button>
+        <button type="button">Book Now</button>
+    </div>
+
+    <div class="registration-form">
+        <h2>Register</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>
